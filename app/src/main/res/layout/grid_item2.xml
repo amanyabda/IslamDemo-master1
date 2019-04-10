@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/fondramadan_blur"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/griddata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="اليوم الاول"
+        android:textColor="#fff"
+        android:textSize="40dp" />
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="970dp"
+        android:layout_height="650dp"
+        android:src="@drawable/r1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/griddata"
+        android:layout_marginTop="1dp" />
+</RelativeLayout>
